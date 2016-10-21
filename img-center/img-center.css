@@ -1,0 +1,27 @@
+.img-center-div{
+	text-align: center;
+	display: table;
+	height: 500px;
+	width: 100%;
+}
+.img-center-span{
+	display: table-cell;
+	vertical-align: middle;
+}
+.div-center-div{
+	position: relative;
+	height: 500px;
+	width: 100%;
+}
+.div-center-div1{
+	background: url(../image/bg1.png);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	-webkit-transform:translateX(-50%) translateY(-50%);
+	-moz-transform:translateX(-50%) translateY(-50%);
+	-ms-transform:translateX(-50%) translateY(-50%);
+	transform:translateX(-50%) translateY(-50%);
+}
